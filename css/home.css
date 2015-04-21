@@ -1,0 +1,92 @@
+html,body 
+{
+	height:100%;
+	background-image: url("../img/oble.jpg");
+	background-size: 100%;
+	overflow: hidden;
+}
+		
+#navbar
+{
+	background-image: url("../img/header_background.png");
+	background-size: 65px 65px;
+	height: 65px;
+	background-repeat: repeat-x;
+			
+	color: white;
+}
+		
+.navbar-form
+{
+	margin-top: 16px;
+}
+
+.form-control
+{
+	margin-top: 2px;
+}
+
+.btn
+{
+	margin-top: 1px;
+}
+		
+#footer
+{
+	position: fixed;
+	background:#550a0a; 
+}
+
+
+.carousel{
+	height: 70%;
+	width: 65%;
+	background: #ffffff;
+	margin: 70px auto;
+	opacity:0.7;
+}
+
+.item, .active{
+	height: 70%;
+
+}
+
+.carousel-inner{
+	height: 100%;
+}
+
+.carousel-caption{
+	margin: 0 0 0 -35%;
+	width: 100%;
+	left: 45%;
+	position: absolute;
+	text-align: left;
+	color: #000000;
+}
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {
+  background-color: #444;
+}
+		
+.header-image
+{
+	margin: 0 0 0 50px;
+}
+
+.separator
+{
+	height: 15%;
+}
+
+#content 
+{
+	width: 95%;
+	margin-top: 1%;
+	margin-right: auto;
+	margin-left: auto;
+}

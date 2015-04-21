@@ -1,0 +1,25 @@
+html,body 
+{
+	height:100%;
+	padding-top: 30px;
+}
+		
+#navbar
+{
+	background-image: url("../img/header_background.png");
+	background-size: 65px 65px;
+	height: 65px;
+	background-repeat: repeat-x;
+	color: white;
+}
+		
+.dropdown.nav
+{
+	margin-top: 10px;
+}
+		
+#footer
+{
+	position: fixed;
+	background:#550a0a; 
+}

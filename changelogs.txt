@@ -1,0 +1,31 @@
+changelogs.
+
+removed base_url() (application/config/config) <-nagugulo ung sa css
+placed generate_username from main_control to admin_control
+	generate account doesn't work
+used CI form helpers for forms. hindi kasi pwede sa hiwa hiwalay na controllers ung may action lang
+autoloaded:
+	libraries: 	'form_validation','session'
+	helpers:	'form', 'url','html'
+added new helper: 
+	application/helper/MY_html_helper.php
+organized views(partitioned them)
+	added header.php
+	added footer.php
+changed filenames: 
+	admin_login_model.php -> login_model.php
+	admin_login_view.php -> login_view.php
+made annoucement board (loginpage) dynamic
+made appointments panel (adviser page) dynamic
+made notifs (navbar) dynamic
+student page skeleton(partitioned)
+admin page skeleton(partitioned) *tabs muna, saka na ung animated
+announcements integrated
+added modals:
+	add announcements
+	edit annoucement
+	generate account
+	
+bugs:
+	hitting back after logout.
+ajax search
